@@ -1,0 +1,8 @@
+fastapi[all]
+uvicorn
+alembic
+psycopg2-binary
+pydantic-settings
+alembic
+pytest
+httpx
