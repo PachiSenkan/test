@@ -1,8 +1,8 @@
 fastapi[all]
+sqlalchemy[mypy]
 uvicorn
 alembic
 psycopg2-binary
 pydantic-settings
-alembic
 pytest
 httpx

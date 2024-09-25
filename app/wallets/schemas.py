@@ -13,7 +13,7 @@ class WalletCreate(BaseModel):
     balance: float = Field(
         ...,
         json_schema_extra={
-            "example": 1000.5,
+            "example": 1000,
             "description": "Balance of the wallet",
         },
     )
@@ -30,7 +30,7 @@ class WalletOperation(BaseModel):
         ...,
         gt=0,
         json_schema_extra={
-            "example": 2.5,
+            "example": 2,
             "description": "Amount to be deposited/withdrawed to/from wallets balance",
         },
     )
